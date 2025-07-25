@@ -1,7 +1,7 @@
 import HeroSection from "@/components/hero-section";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Users, Award, Rocket } from "lucide-react";
+import { ArrowRight, Users, Award, Rocket, Code } from "lucide-react";
 import AnimatedCounter from "@/components/animated-counter";
 
 export default function Home() {
