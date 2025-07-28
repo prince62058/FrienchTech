@@ -65,7 +65,8 @@ The application follows a modern full-stack architecture with clear separation b
 - **Styling**: TailwindCSS, Radix UI primitives, shadcn/ui components
 - **State Management**: TanStack Query for server state
 - **Forms**: React Hook Form with Hookform Resolvers
-- **3D Graphics**: Three.js for interactive elements
+- **3D Graphics**: Three.js for interactive particle systems and backgrounds
+- **Animations**: GSAP with ScrollTrigger for advanced scroll-based animations
 - **Utilities**: Class Variance Authority, clsx, date-fns
 
 ### Backend Dependencies
@@ -99,4 +100,24 @@ The application follows a modern full-stack architecture with clear separation b
 - **Connection**: Neon serverless PostgreSQL with connection pooling
 - **Environment**: Separate DATABASE_URL for production deployment
 
-The application is designed for modern web standards with TypeScript throughout, responsive design, and scalable architecture suitable for a growing IT services business.
+## Recent Changes (July 28, 2025)
+
+### Major Animation and 3D Enhancement Update
+- **Enhanced All Pages**: Services, Projects, Pricing, and Contact pages now feature advanced GSAP scroll-triggered animations
+- **3D Visual Effects**: Integrated Three.js particle systems across all pages for immersive backgrounds
+- **Advanced CSS Animations**: Added comprehensive 3D transforms, glassmorphism effects, floating elements, and gradient animations
+- **Interactive Elements**: Implemented 3D hover effects, scroll-triggered animations, and dynamic particle systems
+- **Modern Design**: Dark theme with gradient backgrounds, glassmorphism cards, and neon glow effects
+- **Performance Optimized**: Efficient animation cleanup and optimized particle rendering
+
+### Animation Features Added
+- GSAP ScrollTrigger animations with 3D transforms (rotationX, rotationY, scale)
+- Three.js particle systems with floating animations
+- Advanced hover effects with perspective and 3D rotations  
+- Glassmorphism design patterns with backdrop blur
+- Gradient text effects and animated buttons
+- Scroll-based parallax effects
+- Form field focus animations
+- Staggered card entrance animations
+
+The application now provides a cutting-edge, immersive user experience with modern web standards, TypeScript throughout, responsive design, advanced 3D animations, and scalable architecture suitable for a growing IT services business.
