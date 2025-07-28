@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Rocket } from "lucide-react";
 import ThreeBackground from "./three-background";
+import ParticleSystem from "./3d-particle-system";
 import heroVideo from "@assets/6036381_Keyboard_Laptop_3840x2160_1753162786293.mp4";
 
 export default function HeroSection() {
@@ -21,6 +22,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/50 z-1"></div>
       
       <ThreeBackground />
+      <ParticleSystem className="z-2" />
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">

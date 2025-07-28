@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a modern full-stack web application for FrienchTech IT Solution Pvt Ltd, built with React frontend and Express.js backend. The application serves as a corporate website showcasing IT services, projects, pricing, and includes a contact management system.
+This is a modern full-stack web application for FrienchTech IT Solution Pvt Ltd, built with React frontend and Express.js backend. The application serves as a corporate website showcasing IT services, projects, pricing, and includes a contact management system. Enhanced with advanced 3D animations, GSAP scroll-triggered effects, and Three.js particle systems for an immersive user experience.
 
 ## User Preferences
 
@@ -31,11 +31,13 @@ The application follows a modern full-stack architecture with clear separation b
 
 ### Frontend Components
 - **Navigation**: Fixed header with responsive mobile menu
-- **Hero Section**: Interactive 3D background with Three.js particles
+- **Hero Section**: Interactive 3D background with Three.js particles and video background
+- **Enhanced Home Page**: Rich content sections with GSAP scroll-triggered animations
+- **3D Elements**: Custom particle systems, glassmorphism effects, and 3D transforms
 - **Pages**: Home, About, Services, Projects, Pricing, Contact
-- **UI Components**: Comprehensive shadcn/ui component library
+- **UI Components**: Comprehensive shadcn/ui component library with advanced animations
 - **Forms**: React Hook Form with Zod validation
-- **Animations**: Custom animated counters and CSS animations
+- **Animations**: GSAP-powered scroll animations, floating elements, and 3D card effects
 
 ### Backend Components
 - **API Routes**: RESTful endpoints for contact form and data retrieval
