@@ -25,18 +25,25 @@ export default function Footer() {
               Elevate your online presence with us!
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-friench-blue transition-colors">
-                <Facebook size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-friench-blue transition-colors">
-                <Twitter size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-friench-blue transition-colors">
-                <Linkedin size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-friench-blue transition-colors">
-                <Instagram size={18} />
-              </a>
+             
+             <a 
+  href="https://www.linkedin.com/company/frienchtech-it-solutions/posts/?feedView=all&viewAsMember=true" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-friench-blue transition-colors"
+>
+  <Linkedin size={18} />
+</a>
+
+<a 
+  href="https://www.instagram.com/frienchtech_it/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-friench-blue transition-colors"
+>
+  <Instagram size={18} />
+</a>
+
             </div>
           </div>
           
@@ -53,20 +60,24 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-6">Contact</h3>
             <div className="space-y-3">
-              <p className="text-gray-400">
-                MB 33 Mansrovar Complex<br />
-                Bhopal M.P.- 462016
-              </p>
+              <p className="text-gray-400">MB 33 Mansrovar Complex Bhopal M.P.- 462016</p>
               <p className="text-gray-400">info@frienchtech.com</p>
               <p className="text-gray-400">0755 461 1870</p>
             </div>
           </div>
         </div>
         
-        <div className="border-t border-gray-800 pt-8 text-center">
-          <p className="text-gray-400">
-            Copyright © 2023-24 FrienchTech. All rights reserved.
-          </p>
+        <div className="border-t border-gray-800 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text-gray-400 text-sm mb-4 md:mb-0">
+              © 2023-25 FrienchTech IT Solution Pvt Ltd. All rights reserved.
+            </p>
+            <div className="flex items-center space-x-2 text-gray-400 text-sm">
+              <span>Made with</span>
+              <span className="text-red-500">♥</span>
+              <span>by FrienchTech</span>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
